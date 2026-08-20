@@ -1,14 +1,28 @@
-Linha 56 código 1 ($stmt->bind_param("ssi", $nome, $email, $id)) : faltando ";" no final.
-Linha 66 código 1 ($resultado = $conn->query($sql)) : faltando ";" no final.
-Falta de banco de dados para arquivar informações de cadastro.
-Linha  código 1 ("}") : faltando ";" no final.
+# Jogo dos 7 erros
 
-Linha 58 código 2 ($stmt->bind_param("ssi", $nome, $email, $id)) : faltando ";" no final.
-Linha 68 código 2 ($resultado = $conn->query($sql)) : faltando ";" no final.
- Falta de banco de dados para arquivar informações de cadastro.
+## Código 1
 
+####Linha 58 código 1 ($stmt->bind_param("ssi", $nome, $email, $id)) : faltando ";" no final.
 
+####Linha 68 código 1 ($resultado = $conn->query($sql)) : faltando ";" no final.
 
- # Jogo dos 7 erros
+####Falta de banco de dados para arquivar informações de cadastro.
 
- ## Código 1
+####Linha  código 1 ("}") : faltando ";" no final.
+
+## Código 2
+
+####Linha 59 código 2 ($stmt->bind_param("ssi", $nome, $email, $id)) : faltando ";" no final.
+
+####Linha 69 código 2 ($resultado = $conn->query($sql)) : faltando ";" no final.
+
+####Falta de banco de dados para arquivar informações de cadastro.
+
+####Linha  código 2 ("}") : faltando ";" no final.
+
+(Alana não esqueça de formatar certinho)
+descrição do problema encontrado;
+quais foram os 3 erros de sintaxe/execução;
+qual foi a falha de segurança;
+como cada problema foi corrigido;
+evidências dos testes realizados.
