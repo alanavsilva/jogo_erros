@@ -1,1 +1,14 @@
-Linha 68 código 2 ($resultado = $conn->query($sql)): faltando ";" no final.
+Linha 56 código 1 ($stmt->bind_param("ssi", $nome, $email, $id)) : faltando ";" no final.
+Linha 66 código 1 ($resultado = $conn->query($sql)) : faltando ";" no final.
+Falta de banco de dados para arquivar informações de cadastro.
+Linha  código 1 ("}") : faltando ";" no final.
+
+Linha 58 código 2 ($stmt->bind_param("ssi", $nome, $email, $id)) : faltando ";" no final.
+Linha 68 código 2 ($resultado = $conn->query($sql)) : faltando ";" no final.
+ Falta de banco de dados para arquivar informações de cadastro.
+
+
+
+ # Jogo dos 7 erros
+
+ ## Código 1

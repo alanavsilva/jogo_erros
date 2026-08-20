@@ -1,5 +1,5 @@
 <?php
-
+ 
 $host = "localhost";
 $user = "root";
 $password = "";
@@ -9,7 +9,9 @@ $conn = new mysqli($host, $user, $password, $database);
 
 if ($conn->connect_error) {
     die("Erro na conexão: " . $conn->connect_error);
-}
+};
+
+$conn->set_charset("utf8mb4");
 
 // CADASTRAR
 if (isset($_POST['cadastrar'])) {
@@ -63,7 +65,7 @@ exit;
 
 // BUSCAR USUÁRIOS
 $sql = "SELECT id, nome, email FROM usuarios ORDER BY id DESC"; 
-$resultado = $conn->query($sql)
+$resultado = $conn->query($sql);
 
 ?>
 
